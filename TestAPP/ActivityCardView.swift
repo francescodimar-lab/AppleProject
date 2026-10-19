@@ -13,7 +13,9 @@ struct ActivityCardView: View {
     var title: String
     var iconName: String
     var color: Color
-    var action: () -> Void 
+    var action: () -> Void
+    
+    var newColor: Color
     
     var body: some View {
         // 1. Il Bottone
